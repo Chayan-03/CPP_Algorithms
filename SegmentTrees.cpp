@@ -13,7 +13,7 @@ using namespace std;
 //Build a segment Tree 
 void buildtree(int i, int l, int r, vector<int> arr, vector<int> strees) {
   if (l == r) {
-    strees[i] = arr[i];
+    strees[i] = arr[l];
     return;
   }
   int mod = (l + r) / 2;
